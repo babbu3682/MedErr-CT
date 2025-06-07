@@ -13,7 +13,7 @@ A benchmark to evaluate clinically practical competencies through error detectio
 We constructed a balanced benchmark using the public CT-RATE dataset, selecting 1,000 cases each of nodules, pleural effusions, and controls based on their clear diagnostic criteria and quantifiable features.
 
  Dataset  | Description | Download Link |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | CT-RATE | The first large-scale public dataset providing paired 3D chest CT volumes and radiology reports. | [HuggingFace](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE)|
 | RadGenome-ChestCT | An extended dataset based on CT-RATE that supports multimodal learning by adding anatomical segmentation masks, region-based reports, and VQA pairs. | [HuggingFace](https://huggingface.co/datasets/RadGenome/RadGenome-ChestCT)|
 
