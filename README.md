@@ -1,6 +1,6 @@
 # MedErr-CT: A Visual Question Answering Benchmark for Identifying and Correcting Errors in CT Reports
 
-<font size=3><div align='center' > <a href=https://arxiv.org/abs/2404.00578>**Paper**</a> | [**Data**](#Dataset Preparation) | [**Benchmark**](#Benchmark Dataset) | [**Generation QA**][generate_qa]</div></font>
+<font size=3><div align='center' > <a href=https://arxiv.org/abs/2404.00578>**Paper**</a> | [**Data**](#dataset-preparation) | [**Benchmark**](#benchmark-dataset) | [**Generation QA**][#generate-error-qa-set]</div></font>
 
 A benchmark to evaluate clinically practical competencies through error detection and correction.
 - We developed a VQA dataset of six error categories including vision-centric errors based on CT imagings.
