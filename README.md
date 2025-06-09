@@ -61,7 +61,7 @@ If our dataset or project are helpful to you, please consider citing:
 ## Acknowledgement
 We appreciate open source projects including: 
 [RadFM](https://github.com/chaoyi-wu/RadFM), 
-[M3D](https://github.com/BAAI-DCAI/M3D)
-[CT-CHAT](https://github.com/ibrahimethemhamamci/CT-CHAT)
-[Med3DVLM](https://github.com/mirthai/med3dvlm)
+[M3D](https://github.com/BAAI-DCAI/M3D),
+[CT-CHAT](https://github.com/ibrahimethemhamamci/CT-CHAT),
+[Med3DVLM](https://github.com/mirthai/med3dvlm),
 [MedM-VL](https://github.com/MSIIP/MedM-VL)
