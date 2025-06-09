@@ -34,7 +34,7 @@ def main():
 
     dspy.configure(lm=lm)
 
-    # Dspy module 정의
+    # Dspy module define
     omission_nodule    = dspy.ChainOfThought(DistortReport_Omission_Nodule)
     omission_effusion  = dspy.ChainOfThought(DistortReport_Omission_Effusion)
 

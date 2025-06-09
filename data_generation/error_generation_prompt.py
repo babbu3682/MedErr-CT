@@ -1,5 +1,3 @@
-# Benchmark 용으로 재구성: disease_list 삭제
-
 import dspy
 
 # Omission: Nodule
@@ -302,6 +300,3 @@ class DistortReport_Unit(dspy.Signature):
     classification: str = dspy.OutputField(desc="Return 1 if you modified the report, return 0 if you did not modify the report")
     distorted_sentence: str = dspy.OutputField(desc="If you modified any sentence from the original report, return the exact modified version of the sentence. If no sentence was modified, return 0.")
     corrected_sentence: str = dspy.OutputField(desc="If you modified any sentence from the original report, return the exact original sentence before modification. If no sentence was modified, return 0.")
-
-# Shuffle 1: 아예 report 바꿔치기 코딩으로
-# Shuffle 2: 정상인 환자와 비정상인 환자 바꿔칙 코딩으로
