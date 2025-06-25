@@ -1,6 +1,6 @@
 # MedErr-CT: A Visual Question Answering Benchmark for Identifying and Correcting Errors in CT Reports
 
-<font size=3><div align='center' > **Paper** | [**Data**](#dataset-preparation) | [**Benchmark**](#benchmark-dataset) | [**Generation QA**](#generate-error-qa-set)</div></font>
+<font size=3><div align='center' > **Paper(https://arxiv.org/abs/2506.19217)** | [**Data**](#dataset-preparation) | [**Benchmark**](#benchmark-dataset) | [**Generation QA**](#generate-error-qa-set)</div></font>
 <!-- <font size=3><div align='center' > <a href=https://arxiv.org/abs/2404.00578>**Paper**</a> | [**Data**](#dataset-preparation) | [**Benchmark**](#benchmark-dataset) | [**Generation QA**](#generate-error-qa-set)</div></font> -->
 
 A benchmark to evaluate clinically practical competencies through error detection and correction.
@@ -47,13 +47,14 @@ python data_generation/error_generation_dspy.py \
 If our dataset or project are helpful to you, please consider citing:
 
 <!-- ```BibTeX
-@misc{bai2024m3d,
-      title={M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models}, 
-      author={Fan Bai and Yuxin Du and Tiejun Huang and Max Q. -H. Meng and Bo Zhao},
-      year={2024},
-      eprint={2404.00578},
+@misc{kyung2025mederrctvisualquestionanswering,
+      title={MedErr-CT: A Visual Question Answering Benchmark for Identifying and Correcting Errors in CT Reports}, 
+      author={Sunggu Kyung and Hyungbin Park and Jinyoung Seo and Jimin Sung and Jihyun Kim and Dongyeong Kim and Wooyoung Jo and Yoojin Nam and Sangah Park and Taehee Kwon and Sang Min Lee and Namkug Kim},
+      year={2025},
+      eprint={2506.19217},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.19217}, 
 }
 ``` -->
 
