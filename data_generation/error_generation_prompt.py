@@ -206,7 +206,7 @@ class DistortReport_Direction_Effusion(dspy.Signature):
     corrected_sentence: str = dspy.OutputField(desc="If you modified any sentence from the original report, return the exact original sentence before modification. If no sentence was modified, return 0.")
 
 
-# Size: 전체 (완성)
+# Size
 class DistortReport_Size(dspy.Signature):
     """
     Task:
@@ -253,7 +253,7 @@ class DistortReport_Size(dspy.Signature):
     distorted_sentence: str = dspy.OutputField(desc="If you modified any sentence from the original report, return the exact modified version of the sentence. If no sentence was modified, return 0.")
     corrected_sentence: str = dspy.OutputField(desc="If you modified any sentence from the original report, return the exact original sentence before modification. If no sentence was modified, return 0.")
  
-# Typo: 전체 (완성)
+# Typo
 class DistortReport_Typo(dspy.Signature):
     """
     Task: 
@@ -278,7 +278,7 @@ class DistortReport_Typo(dspy.Signature):
     distorted_sentence: str = dspy.OutputField(desc="If you modified any sentence from the original report, return the exact modified version of the sentence. If no sentence was modified, return 0.")
     corrected_sentence: str = dspy.OutputField(desc="If you modified any sentence from the original report, return the exact original sentence before modification. If no sentence was modified, return 0.")
 
-# Unit: 전체 (완성)
+# Unit
 class DistortReport_Unit(dspy.Signature):
     """
     Task: 
